@@ -44,6 +44,3 @@ $query->execute();  // Gets data from database in query and stores it internally
 
 $result = $query->fetchAll();  // Gets data stored internally in PHP
 
-echo '<pre>';
-print_r($result);
-echo '</p>';
